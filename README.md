@@ -15,4 +15,10 @@ kubectl exec -ti helloworld-deployment-67f66c98cc-bm55d -- /bin/bash
 curl http://10.0.36.224:31001
 
 Hello World!
+
+[user@phatbox service (⎈ |Epick8s:default)]$ kubectl exec -ti helloworld-deployment-nodeport-67f66c98cc-krwzr -- /bin/bash
+root@helloworld-deployment-nodeport-67f66c98cc-krwzr:/app# curl http://helloworld-service:31001
+Hello World!
+
+
 ```
