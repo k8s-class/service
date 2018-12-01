@@ -2,7 +2,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: helloworld-service
+  name: helloworld-service-nodeport
 spec:
   ports:
   - port: 31001
